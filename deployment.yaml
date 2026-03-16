@@ -16,6 +16,6 @@ spec:
         - name: regcred
       containers:
         - name: node-app
-          image: vipparlasandeepcharan/node-app:40
+          image: vipparlasandeepcharan/node-app:${BUILD_NUMBER}
           ports:
             - containerPort: 5000
